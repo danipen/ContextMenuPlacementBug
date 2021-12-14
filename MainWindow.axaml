@@ -8,6 +8,8 @@
         x:Class="ContextMenuPlacementBug.MainWindow"
         Title="ContextMenuPlacementBug">
     <StackPanel>
-        <Button Name="mButton" Content="Click me with the left mouse button!" />
+        <Panel HorizontalAlignment="Left" Name="mButton" Width="255" Height="28" Background="LightGray">
+            <TextBlock Text="Click me with the left mouse button!" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Panel>
     </StackPanel>
 </Window>
